@@ -109,7 +109,7 @@
                                                         <div class="px-6 py-3">
                                                             <div class="flex items-center gap-x-4">
                                                                 <img class="flex-shrink-0 h-[2.375rem] w-[3] rounded-md"
-                                                                    src="{{ $slider->img_url }}"
+                                                                    src="{{asset($slider->img_url) }}"
                                                                     alt="Image Description">
                                                             </div>
                                                         </div>

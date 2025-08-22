@@ -87,7 +87,7 @@
                         </div>
 
                         <figure>
-                            <img class="w-full object-cover rounded-xl" src="{{ $blog->img_link }}"
+                            <img class="w-full object-cover rounded-xl" src="{{ asset(trim($blog->img_link)) }}"
                                 alt="Image Description">
                         </figure>
 

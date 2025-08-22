@@ -93,7 +93,7 @@
                                                     <td class="h-px w-72 whitespace-nowrap">
                                                         <div class="px-6 py-3">
                                                             <img class="flex-shrink-0 h-[2.375rem] w-[3] rounded-md"
-                                                                src="{{ $client->image_link }}" alt="Image Description">
+                                                                src="{{ asset($client->image_link )}}" alt="Image Description">
                                                         </div>
                                                     </td>
                                                     <td class="h-px w-72 whitespace-nowrap">

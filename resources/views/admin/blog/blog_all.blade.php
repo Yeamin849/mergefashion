@@ -118,7 +118,7 @@
                                                         <a class="block h-full p-6" href="#">
                                                             <div class="flex items-center gap-x-4">
                                                                 <img class="flex-shrink-0 h-[2.5rem] w-[4rem] rounded-md"
-                                                                    src="{{ $blog->img_link }}" alt="Image Description">
+                                                                    src="{{asset($blog->img_link) }}" alt="Image Description">
                                                             </div>
                                                         </a>
                                                     </td>

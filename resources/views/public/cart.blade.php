@@ -54,7 +54,8 @@
                         <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"
                             data-id="">
                             <td class="w-32 p-4">
-                                <img src="{{ $product->pro_cover }}" alt="{{ $product->pro_name }}">
+                                <img src="{{ asset($product->pro_cover) }}" alt="{{ $product->pro_name }}">
+                                {{-- asset(trim($blog->img_link)) --}}
                             </td>
                             <td class="px-6 py-4 font-semibold text-gray-900 dark:text-white">
                                 {{ $product->pro_name }}
@@ -94,8 +95,8 @@
                     @foreach ($product_images as $key => $product_image)
                         <label class="relative cursor-pointer">
                             <input type="radio" name="selected_image" value="{{ $product_image }}" required class="absolute opacity-0 peer">
-                            <img class="rounded-lg border-2 border-transparent peer-checked:border-blue-500 peer-checked:shadow-lg peer-checked:shadow-blue-500/50 transform peer-checked:scale-105 transition-transform duration-300"
-                                src="{{ $product_image }}" alt="product image" />
+                            <img class="w-22 h-22 rounded-lg border-2 border-transparent peer-checked:border-blue-500 peer-checked:shadow-lg peer-checked:shadow-blue-500/50 transform peer-checked:scale-105 transition-transform duration-300"
+                                src="{{ asset($product_image) }}" alt="product image" />
                             <span
                                 class="absolute top-2 left-2 bg-white text-blue-500 p-1 rounded-full shadow-lg opacity-0 peer-checked:opacity-100">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill"

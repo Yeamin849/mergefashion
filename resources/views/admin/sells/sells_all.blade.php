@@ -111,7 +111,7 @@
                                                 class="border-b dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-700">
                                                 <th scope="row"
                                                     class="flex items-center px-4 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                                    <img src="{{ $item->pro_cover }}" alt="Product Image"
+                                                    <img src="{{asset($item->pro_cover) }}" alt="Product Image"
                                                         class="w-auto h-8 mr-3">
                                                     {{ $item->pro_name }}
                                                 </th>
