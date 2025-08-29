@@ -22,7 +22,7 @@
 
 
     <!-- Scripts -->
-    <!--@vite(['resources/css/app.css', 'resources/js/app.js'])-->
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 
     <link rel="preload" as="style" href="{{ asset('build/assets/app-ad555dc9.css') }}" />
     <link rel="stylesheet" href="{{ asset('build/assets/app-ad555dc9.css') }}" />
