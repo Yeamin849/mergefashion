@@ -8,6 +8,7 @@ use Illuminate\View\View;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Support\Facades\File;
 use Intervention\Image\ImageManagerStatic as Image;
+use Illuminate\Support\Facades\Log;
 
 class ImageController extends Controller
 {
@@ -59,6 +60,7 @@ class ImageController extends Controller
             Write Code Here for
             Store $imageName name in DATABASE from HERE 
         */
+            $imagePath = 'images/products/' . date('d_m_Y') . '/' . $imageName;
 
         return back()
             ->with('success', 'You have successfully uploaded the image.')
@@ -137,7 +139,7 @@ class ImageController extends Controller
             }
         } catch (\Exception $e) {
             // Log the error for debugging
-            \Log::error('Error deleting folder: ' . $e->getMessage());
+            Log::error('Error deleting folder: ' . $e->getMessage());
 
             return redirect()->back()->with('error-delete', 'Unable to delete the folder');
         }

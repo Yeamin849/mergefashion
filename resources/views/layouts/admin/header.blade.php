@@ -13,8 +13,8 @@
     {{-- <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" /> --}}
     
-    <link rel="icon" href="{{ url('images/products/10_09_2024/1725912797.jpg') }}" type="image/x-icon">
-    <link rel="shortcut icon" href="{{ url('images/products/10_09_2024/1725912797.jpg') }}" type="image/x-icon">
+    <link rel="icon" href="{{ url('images/products/10_09_2024/mf.png') }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ url('images/products/10_09_2024/mf.png') }}" type="image/x-icon">
 
 
     {{-- For Larapex chart --}}
@@ -24,10 +24,10 @@
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
-    <link rel="preload" as="style" href="{{ asset('build/assets/app-ad555dc9.css') }}" />
+    {{-- <link rel="preload" as="style" href="{{ asset('build/assets/app-ad555dc9.css') }}" />
     <link rel="stylesheet" href="{{ asset('build/assets/app-ad555dc9.css') }}" />
     <link rel="modulepreload" href="{{ asset('build/assets/preline-90866586.js') }}" />
-    <script type="module" src="{{ asset('build/assets/preline-90866586.js') }}"></script>
+    <script type="module" src="{{ asset('build/assets/preline-90866586.js') }}"></script> --}}
 </head>
 
 <body class="bg-gray-200 dark:bg-slate-900">
