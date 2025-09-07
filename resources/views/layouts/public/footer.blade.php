@@ -49,7 +49,7 @@
         </div>
         <!-- End Social Brands -->
          <p class="text-gray-700">
-            Address: 4 No Road, East Rusulpur, KamrangirChar, Dhaka-1211
+            ঠিকানাঃ ৪ নং রোড, পূর্ব রুসুলপুর,কামরাংগীরচর, ঢাকা-১২১১
         </p>
         @php
             $date = now()->format('Y');

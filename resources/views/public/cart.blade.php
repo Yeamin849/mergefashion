@@ -116,7 +116,7 @@
                             <input id="in-dhaka" type="radio" value="1" name="location" required
                                 class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                             <label for="in-dhaka" class="ml-2 text-sm font-bold text-red-500 dark:text-gray-300">
-                                ঢাকার ভিতরে (৮০৳)
+                                ঢাকার ভিতরে (৭০৳)
                             </label>
                         </div>
                     </div>
@@ -125,7 +125,7 @@
                             <input id="out-dhaka" type="radio" value="0" name="location"
                                 class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                             <label for="out-dhaka" class="ml-2 text-sm font-bold text-red-500 dark:text-gray-300">
-                                ঢাকার বাহিরে (১৫০৳)
+                                ঢাকার বাহিরে (১৩০৳)
                             </label>
                         </div>
                     </div>
@@ -215,9 +215,9 @@
 
                 function updateTotal() {
                     if (inDhakaRadio.checked) {
-                        totalSpan.textContent = 'Total: ' + (baseTotal + 80) + ' TK';
+                        totalSpan.textContent = 'Total: ' + (baseTotal + 70) + ' TK';
                     } else if (outDhakaRadio.checked) {
-                        totalSpan.textContent = 'Total: ' + (baseTotal + 150) + ' TK';
+                        totalSpan.textContent = 'Total: ' + (baseTotal + 130) + ' TK';
                     }
                 }
 

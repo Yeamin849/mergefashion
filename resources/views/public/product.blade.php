@@ -6,18 +6,18 @@
     @else
         @section('page-title')
             <title>{{ $product->pro_name }}</title>
-            <meta name="description" content="A Quality pair of shoes is a great travel companion J & J Fashion Shoe's">
+            <meta name="description" content="A Quality pair of shoes is a great travel companion Merge Fashion">
             <meta name="keywords"
-                content="J & J Fashion Shoe's, online shoes shop, J & J Fashion Shoe's bangladesh, buy shoes online,{{ $product->pro_name }}">
+                content="Merge Fashion, online shoes shop, Merge Fashion bangladesh, buy shoes online,{{ $product->pro_name }}">
             <meta name="language" content="English">
             {{-- <meta name="robots" content="noindex, nofollow"> <!-- Prevents indexing and following --> --}}
             <meta name="robots" content="index, follow">
             <meta name="googlebot" content="index, follow">
             <meta name="bingbot" content="index, follow">
-            <meta name="author" content="J & J Fashion Shoe's">
+            <meta name="author" content="Merge Fashion">
 
             <!-- Add Open Graph meta tags to improve social media sharing -->
-            <meta property="og:site_name" content="J & J Fashion Shoe's">
+            <meta property="og:site_name" content="Merge Fashion">
             <meta property="og:title" content="{{ $product->pro_name }}">
             <meta property="og:description" content="{{ $product->content }}">
             <meta property="og:image" content="{{ $product->pro_cover }}">
@@ -27,9 +27,9 @@
 
             <!-- Add Twitter Card meta tags for improved sharing on Twitter -->
             <meta name="twitter:card" content="summary_large_image">
-            <meta name="twitter:title" content="J & J Fashion Shoe's">
+            <meta name="twitter:title" content="Merge Fashion">
             <meta name="twitter:description"
-                content="A Quality pair of shoes is a great travel companion J & J Fashion Shoe's">
+                content="A Quality pair of shoes is a great travel companion Merge Fashion">
             <meta name="twitter:image" content="{{ url('images/products/10_09_2024/1725912797.jpg') }}">
             <!-- Add canonical link to avoid duplicate content issues -->
             <link rel="canonical" href="{{ route('welcome') }}">
@@ -40,7 +40,7 @@
             {
                 "@context": "http://schema.org",
                 "@type": "WebPage",
-                "name": "Merge Fashion BD ",
+                "name": "Merge Fashion  ",
                 "description": "Make your life easy"
             }
             </script>
@@ -200,7 +200,7 @@
                                             <button type="submit"
                                                 class="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">
                                                 Buy Now</button>
-                                            <a href="tel:01756555100"
+                                            <a href="tel:01972477394"
                                                 class="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">
                                                 Call Now
                                             </a>
